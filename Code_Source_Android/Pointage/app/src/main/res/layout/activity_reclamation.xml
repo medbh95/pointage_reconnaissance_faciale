@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reclamation">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="342dp"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Veuillez preciser le probleme rencontré pour envoyer un email au HR manager"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="274dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="203dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Votre Adresse Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/object"
+        android:layout_width="277dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="286dp"
+        android:ems="10"
+        android:hint="Objet"
+        android:gravity="center_vertical"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="281dp"
+        android:layout_height="221dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="168dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Message"
+        android:inputType="textMultiLine"
+        android:lines="100" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="Envoyer" />
+
+</RelativeLayout>
